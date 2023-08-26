@@ -1,0 +1,46 @@
+.nav-link{
+    color:white;
+}
+.nav-link:hover{
+    color:red;
+    cursor: pointer;
+}
+#navs{
+    background-color:  #1B1464;
+    position: relative;
+}
+#img{
+    padding: 2px;
+}
+#bar{
+    width: 400px !important;
+    margin-left: -20px !important;
+
+}
+#kgf{
+    padding: 10px;
+}
+
+#go{
+    padding: 10px;
+}
+#navs{
+    background-color: #72DE33;
+}
+.nav-header{
+    height: 110px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    background-color:  #1B1464 !important;
+}
+#kl{
+    margin-left: -30px;
+}
+#ok{
+    margin-left: -40px !important;
+}
+.nav-item{
+    padding: 10px;
+}

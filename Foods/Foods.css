@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley&display=swap');
+.toy{
+    height: 300px;
+    width: 100vw;
+    border: 1px solid black;
+}
+#gap{
+    gap: 10px;
+}
+
+input[type=radio]{
+    display: none;
+}
+.star{
+    cursor: pointer;
+}
+.card-title{
+    font-size: 20px;
+    font-family: 'Besley',Verdana, Geneva, Tahoma, sans-serif;
+}
+.card{
+ border-bottom: 3px solid greenyellow;
+}

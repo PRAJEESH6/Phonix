@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Trade+Winds&display=swap');
+.ye{
+    border-radius:'' ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   transform:'' ;
+    position: absolute;
+}
+#nop{
+    margin-top:-10px;
+    font-family: 'Trade Winds','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#kkol{
+    transition: 3.1s;
+}
+#decuple{
+    font-family: 'Trade Winds','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#pone{
+    height: 300px;
+    width: 300px;
+}
+#ptwo{
+    height: 400px;
+    width: 400px;
+}
+#pthree{
+    height: 400px;
+    width: 400px;
+}
+#pfive{
+    height: 250px;
+    width: 250px;
+}

@@ -1,0 +1,18 @@
+.container{
+    position: relative;
+    margin-top: 20px;
+}
+
+.see{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    margin-left: 550px;
+    padding: 3px;
+}
+#pet{
+    margin-top: 20px;
+    width: 600px;
+    height: 40px;
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&family=Prompt:ital,wght@1,500&display=swap');
+body{
+    height: 100vh;
+    width: 100vw;
+   
+}
+.back{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden !important;
+}
+#malar{
+    height: 530px;
+    width: 800px;
+    position: relative;
+    margin-left: -120px;
+}
+#mer{
+    position: absolute;
+    margin-left: -150px;
+    margin-top: -50px;
+    height: 900px;
+    width: 1000px;
+}
+#main{
+    color: #72DE33;
+    font-size: 45px;
+    font-family: 'Playfair Display','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 150px;
+    margin-left:30px ;
+}
+#main1{
+    color: #72DE33;
+    font-size: 42px;
+    font-family: 'Playfair Display','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 60px;
+}
+#foos{
+    margin-left: 230px !important;
+}
+#det{
+    width: 550px;
+    text-align: justify;
+    font-size: 28px;
+    font-family: 'Tangerine','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-top: 30px;
+     margin-left: 30px;
+     color: #72DE33;
+    
+}
+#pizza{
+    margin-top: 180px;
+    margin-left: 370px;
+    font-family: 'Playfair Display','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
