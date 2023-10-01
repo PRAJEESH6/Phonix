@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&family=Prompt:ital,wght@1,500&display=swap');
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden !important;
+}
+.back{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden !important;
+}
+#malar{
+    height: 530px;
+    width: 800px;
+    position: relative;
+    margin-left: -120px;
+}
+#mer{
+    position: absolute;
+    margin-left: -150px;
+    margin-top: -50px;
+    height: 900px;
+    width: 1000px;
+}
+#main{
+    color: #72DE33;
+    font-size: 45px;
+    font-family: 'Playfair Display','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 150px;
+    margin-left:30px ;
+}
+#main1{
+    color: #72DE33;
+    font-size: 42px;
+    font-family: 'Playfair Display','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 60px;
+}
+#foos{
+    margin-left: 230px !important;
+}
+#det{
+    width: 550px;
+    text-align: justify;
+    font-size: 28px;
+    font-family: 'Tangerine','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-top: 30px;
+     margin-left: 30px;
+     color: #72DE33;
+    
+}
+#pizza{
+    margin-top: 180px;
+    margin-left: 370px;
+    font-family: 'Playfair Display','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.animes{
+    height: 65px;
+    width: 206px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: white;
+    border-radius: 100px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.borders{
+    height: 35px;
+    width: 220px !important;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 42%, rgba(0,39,255,1) 63%);
+animation-name: rotate;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-play-state: paused;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);   
+    }
+}
+#fooss{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 55px;
+    width: 196px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #72DE33;
+    border-radius: 100px;
+    border: none;
+    text-decoration: none;
+    font-family: 'Bruno Ace SC',Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+.animes:hover .borders{
+    animation-play-state: running;
+}
